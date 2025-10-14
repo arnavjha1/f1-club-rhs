@@ -26,7 +26,7 @@ const Home = () => {
               RACING.
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl">
-              Join the ultimate Formula 1 enthusiasts community. Experience the thrill of racing together.
+              Experience the thrill of racing together with fellow F1 enthusiasts.
             </p>
             <Link
               to="/about"
@@ -72,9 +72,9 @@ const Home = () => {
 
             <div className="bg-card p-8 rounded-sm border border-border hover:border-primary transition-all duration-300 hover:shadow-racing group">
               <Calendar className="w-12 h-12 text-primary mb-4 group-hover:scale-110 transition-transform" />
-              <h3 className="text-2xl font-bold mb-3">Season Coverage</h3>
+              <h3 className="text-2xl font-bold mb-3">Race Discussion</h3>
               <p className="text-muted-foreground">
-                Complete coverage of every race weekend with expert analysis and live discussions.
+                Complete coverage of every race weekend with .
               </p>
             </div>
           </div>

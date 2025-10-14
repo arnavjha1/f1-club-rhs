@@ -6,25 +6,25 @@ const Sponsorships = () => {
     {
       tier: "Platinum Partners",
       companies: [
-        { name: "Apex Racing Technologies", description: "Leading provider of racing simulation technology" },
-        { name: "Velocity Motors", description: "Premium automotive performance specialists" },
+        //{ name: "Apex Racing Technologies", description: "Leading provider of racing simulation technology" },
       ],
     },
     {
       tier: "Gold Partners",
       companies: [
-        { name: "Speedtech Analytics", description: "Advanced racing data and analytics platform" },
-        { name: "Circuit Gear Co.", description: "Premium racing merchandise and apparel" },
-        { name: "TurboCharge Energy", description: "High-performance energy drink brand" },
+        //{ name: "Speedtech Analytics", description: "Advanced racing data and analytics platform" },
       ],
     },
     {
       tier: "Silver Partners",
       companies: [
-        { name: "Grid Position Media", description: "Motorsport content and production" },
-        { name: "Podium Watches", description: "Luxury timepiece manufacturer" },
-        { name: "Asphalt Magazine", description: "Leading motorsport publication" },
-        { name: "RaceView VR", description: "Virtual reality racing experiences" },
+        //{ name: "RaceView VR", description: "Virtual reality racing experiences" },
+      ],
+    },
+    {
+      tier: "Bronze Partners",
+      companies: [
+        //{ name: "RaceView VR", description: "Virtual reality racing experiences" },
       ],
     },
   ];
@@ -33,22 +33,22 @@ const Sponsorships = () => {
     {
       icon: Users,
       title: "Brand Exposure",
-      description: "Connect with 500+ passionate F1 enthusiasts at every event",
+      description: "Connect with passionate F1 enthusiasts at every event",
     },
     {
       icon: TrendingUp,
       title: "Growth Opportunities",
-      description: "Expand your reach in the premium motorsport community",
+      description: "Expand your reach throughout our hard-working community and at our competitions",
     },
     {
       icon: Award,
-      title: "Premium Events",
-      description: "Feature your brand at exclusive race viewings and club events",
+      title: "Events & Competitions",
+      description: "Feature your brand at our competition races and club events",
     },
     {
       icon: Handshake,
       title: "Partnership Perks",
-      description: "Collaborate on content, promotions, and community initiatives",
+      description: "Collaborate on content, promotions, and initiatives",
     },
   ];
 
