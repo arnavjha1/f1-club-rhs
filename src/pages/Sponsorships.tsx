@@ -55,7 +55,7 @@ const Sponsorships = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[60vh] flex items-center justify-center overflow-hidden"><br />
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${sponsorshipHero})` }}

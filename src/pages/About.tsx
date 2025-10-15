@@ -141,7 +141,7 @@ const About = () => {
             Experience F1 like never before. Connect with fellow fans, attend exclusive events, and be part of something extraordinary.
           </p>
           <div className="inline-block bg-gradient-racing px-8 py-4 rounded-sm font-bold text-lg shadow-racing">
-            Membership Opening Soon
+            <a href="https://forms.gle/SoE3WBHx1daJexpB7" target="_blank">Join The Club</a>
           </div>
         </div>
       </section>
