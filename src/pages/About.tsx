@@ -46,7 +46,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Values Section */}
+      {/* Board Members Section */}
       <section className="py-20 bg-gradient-card">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl md:text-5xl font-black text-center mb-16">
@@ -54,58 +54,54 @@ const About = () => {
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {/* Tharan */}
             <div className="bg-card p-8 rounded-sm border border-border hover:border-primary transition-all duration-300 group">
               <div className="w-12 h-12 bg-gradient-racing rounded-sm flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <Users className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Tharan</h3>
-              <h4 className="text-xl font-bold mb-3"><span className="text-primary">President</span>
-              <p className="text-muted-foreground">
-                (bio goes here)
-              </p>
+              <h3 className="text-xl font-bold mb-1">Tharan</h3>
+              <h4 className="text-primary font-bold mb-3">President</h4>
+              <p className="text-muted-foreground">(bio goes here)</p>
             </div>
 
+            {/* Sidhu */}
             <div className="bg-card p-8 rounded-sm border border-border hover:border-primary transition-all duration-300 group">
               <div className="w-12 h-12 bg-gradient-racing rounded-sm flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <Target className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Sidhu</h3>
-              <h4 className="text-xl font-bold mb-3"><span className="text-primary">Vice President</span>
-              <p className="text-muted-foreground">
-                (bio goes here)
-              </p>
+              <h3 className="text-xl font-bold mb-1">Sidhu</h3>
+              <h4 className="text-primary font-bold mb-3">Vice President</h4>
+              <p className="text-muted-foreground">(bio goes here)</p>
             </div>
 
+            {/* Sharav */}
             <div className="bg-card p-8 rounded-sm border border-border hover:border-primary transition-all duration-300 group">
               <div className="w-12 h-12 bg-gradient-racing rounded-sm flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <Heart className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Sharav</h3>
-              <h4 className="text-xl font-bold mb-3"><span className="text-primary">Secretary</span>
-              <p className="text-muted-foreground">
-                (bio goes here)
-              </p>
+              <h3 className="text-xl font-bold mb-1">Sharav</h3>
+              <h4 className="text-primary font-bold mb-3">Secretary</h4>
+              <p className="text-muted-foreground">(bio goes here)</p>
             </div>
 
+            {/* Arnav */}
             <div className="bg-card p-8 rounded-sm border border-border hover:border-primary transition-all duration-300 group">
               <div className="w-12 h-12 bg-gradient-racing rounded-sm flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <Heart className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Arnav</h3>
-              <h4 className="text-xl font-bold mb-3"><span className="text-primary">Treasurer</span>
-              <p className="text-muted-foreground">
-                (bio goes here)
-              </p>
+              <h3 className="text-xl font-bold mb-1">Arnav</h3>
+              <h4 className="text-primary font-bold mb-3">Treasurer</h4>
+              <p className="text-muted-foreground">(bio goes here)</p>
             </div>
 
+            {/* Kandarp */}
             <div className="bg-card p-8 rounded-sm border border-border hover:border-primary transition-all duration-300 group">
               <div className="w-12 h-12 bg-gradient-racing rounded-sm flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <Zap className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Kandarp</h3>
-              <p className="text-muted-foreground">
-                (this monkey prob doesn't need a bio)
-              </p>
+              <h3 className="text-xl font-bold mb-1">Kandarp</h3>
+              <h4 className="text-primary font-bold mb-3">Member</h4>
+              <p className="text-muted-foreground">(this monkey prob doesn't need a bio)</p>
             </div>
           </div>
         </div>

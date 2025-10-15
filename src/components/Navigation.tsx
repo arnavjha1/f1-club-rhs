@@ -21,7 +21,12 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-racing-dark/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-
+<Link to="/" className="flex items-center gap-2 group">
+            <Flag className="w-6 h-6 text-primary transition-transform group-hover:scale-110" />
+            <span className="text-xl font-bold bg-gradient-racing bg-clip-text text-transparent">
+              F1 CLUB RHS
+            </span>
+          </Link>
           
           <div className="flex gap-8">
             <Link
