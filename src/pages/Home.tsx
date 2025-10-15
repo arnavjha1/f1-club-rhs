@@ -17,16 +17,17 @@ const Home = () => {
         <div className="relative z-10 container mx-auto px-6">
           <div className="max-w-3xl animate-fade-in">
             <h1 className="text-6xl md:text-8xl font-black mb-6 leading-tight">
-
+<br />
+              SPEED.
               <br />
               <span className="bg-gradient-racing bg-clip-text text-transparent">
-                F1 CLUB
+                PASSION.
               </span>
               <br />
-              REDMOND
+              RACING.
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl">
-              Experience the thrill of racing together with fellow F1 enthusiasts.
+              Experience the thrill of racing together with fellow F1 enthusiasts at the F1 Club at Redmond High School
             </p>
             <Link
               to="/about"
@@ -56,9 +57,9 @@ const Home = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-card p-8 rounded-sm border border-border hover:border-primary transition-all duration-300 hover:shadow-racing group">
               <Trophy className="w-12 h-12 text-primary mb-4 group-hover:scale-110 transition-transform" />
-              <h3 className="text-2xl font-bold mb-3">Exclusive Events</h3>
+              <h3 className="text-2xl font-bold mb-3">National Achievements</h3>
               <p className="text-muted-foreground">
-                Access to exclusive race viewings, track days, and member-only events throughout the season.
+                We participate in the prestigious F1 in Schools competition, showcasing our skills on a national level, demonstrating our commitment to excellence and teamwork. Joining our club provides opportunities to add another national achievement to your resume.
               </p>
             </div>
 
@@ -66,7 +67,7 @@ const Home = () => {
               <Users className="w-12 h-12 text-primary mb-4 group-hover:scale-110 transition-transform" />
               <h3 className="text-2xl font-bold mb-3">Racing Community</h3>
               <p className="text-muted-foreground">
-                Connect with fellow F1 enthusiasts, share insights, and build lasting friendships.
+                Connect with fellow F1 enthusiasts, share insights, and build lasting friendships. 
               </p>
             </div>
 
@@ -74,7 +75,7 @@ const Home = () => {
               <Calendar className="w-12 h-12 text-primary mb-4 group-hover:scale-110 transition-transform" />
               <h3 className="text-2xl font-bold mb-3">Race Discussion</h3>
               <p className="text-muted-foreground">
-                Complete coverage of every race weekend with .
+                Complete coverage of every race weekend by F1 experts like Tharan and Sidhu as well as people who just love Formula 1!
               </p>
             </div>
           </div>

@@ -50,7 +50,7 @@ const About = () => {
       <section className="py-20 bg-gradient-card">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl md:text-5xl font-black text-center mb-16">
-            OUR <span className="text-primary">VALUES</span>
+            BOARD <span className="text-primary">MEMBERS</span>
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -58,9 +58,10 @@ const About = () => {
               <div className="w-12 h-12 bg-gradient-racing rounded-sm flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <Users className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Community</h3>
+              <h3 className="text-xl font-bold mb-3">Tharan</h3>
+              <h4 className="text-xl font-bold mb-3"><span className="text-primary">President</span>
               <p className="text-muted-foreground">
-                Building lasting connections through our shared passion for F1 racing.
+                (bio goes here)
               </p>
             </div>
 
@@ -68,9 +69,10 @@ const About = () => {
               <div className="w-12 h-12 bg-gradient-racing rounded-sm flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <Target className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Excellence</h3>
+              <h3 className="text-xl font-bold mb-3">Sidhu</h3>
+              <h4 className="text-xl font-bold mb-3"><span className="text-primary">Vice President</span>
               <p className="text-muted-foreground">
-                Pursuing the same level of excellence that defines Formula 1 racing.
+                (bio goes here)
               </p>
             </div>
 
@@ -78,9 +80,21 @@ const About = () => {
               <div className="w-12 h-12 bg-gradient-racing rounded-sm flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <Heart className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Passion</h3>
+              <h3 className="text-xl font-bold mb-3">Sharav</h3>
+              <h4 className="text-xl font-bold mb-3"><span className="text-primary">Secretary</span>
               <p className="text-muted-foreground">
-                Fueled by an unwavering love for the sport and its rich history.
+                (bio goes here)
+              </p>
+            </div>
+
+            <div className="bg-card p-8 rounded-sm border border-border hover:border-primary transition-all duration-300 group">
+              <div className="w-12 h-12 bg-gradient-racing rounded-sm flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <Heart className="w-6 h-6 text-white" />
+              </div>
+              <h3 className="text-xl font-bold mb-3">Arnav</h3>
+              <h4 className="text-xl font-bold mb-3"><span className="text-primary">Treasurer</span>
+              <p className="text-muted-foreground">
+                (bio goes here)
               </p>
             </div>
 
@@ -88,9 +102,9 @@ const About = () => {
               <div className="w-12 h-12 bg-gradient-racing rounded-sm flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <Zap className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Innovation</h3>
+              <h3 className="text-xl font-bold mb-3">Kandarp</h3>
               <p className="text-muted-foreground">
-                Embracing the cutting-edge technology and innovation of F1.
+                (this monkey prob doesn't need a bio)
               </p>
             </div>
           </div>
