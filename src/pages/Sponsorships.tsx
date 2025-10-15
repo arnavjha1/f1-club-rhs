@@ -55,7 +55,7 @@ const Sponsorships = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative h-[60vh] flex items-center justify-center overflow-hidden"><br />
+      <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${sponsorshipHero})` }}
@@ -64,7 +64,7 @@ const Sponsorships = () => {
         </div>
 
         <div className="relative z-10 container mx-auto px-6">
-          <div className="max-w-3xl animate-fade-in">
+          <div className="max-w-3xl animate-fade-in"><br />
             <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight">
               OUR
               <br />
