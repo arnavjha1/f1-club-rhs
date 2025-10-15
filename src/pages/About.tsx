@@ -67,7 +67,7 @@ const About = () => {
             {/* Sidhu */}
             <div className="bg-card p-8 rounded-sm border border-border hover:border-primary transition-all duration-300 group">
               <div className="w-12 h-12 bg-gradient-racing rounded-sm flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                <Target className="w-6 h-6 text-white" />
+                <Users className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-1">Sidhu</h3>
               <h4 className="text-primary font-bold mb-3">Vice President</h4>
@@ -77,7 +77,7 @@ const About = () => {
             {/* Sharav */}
             <div className="bg-card p-8 rounded-sm border border-border hover:border-primary transition-all duration-300 group">
               <div className="w-12 h-12 bg-gradient-racing rounded-sm flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                <Heart className="w-6 h-6 text-white" />
+                <Users className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-1">Sharav</h3>
               <h4 className="text-primary font-bold mb-3">Secretary</h4>
@@ -87,7 +87,7 @@ const About = () => {
             {/* Arnav */}
             <div className="bg-card p-8 rounded-sm border border-border hover:border-primary transition-all duration-300 group">
               <div className="w-12 h-12 bg-gradient-racing rounded-sm flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                <Heart className="w-6 h-6 text-white" />
+                <Users className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-1">Arnav</h3>
               <h4 className="text-primary font-bold mb-3">Treasurer</h4>
@@ -97,10 +97,10 @@ const About = () => {
             {/* Kandarp */}
             <div className="bg-card p-8 rounded-sm border border-border hover:border-primary transition-all duration-300 group">
               <div className="w-12 h-12 bg-gradient-racing rounded-sm flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                <Zap className="w-6 h-6 text-white" />
+                <Heart className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-1">Kandarp</h3>
-              <h4 className="text-primary font-bold mb-3">Member</h4>
+              <h4 className="text-primary font-bold mb-3">PR Officer</h4>
               <p className="text-muted-foreground">(this monkey prob doesn't need a bio)</p>
             </div>
           </div>
@@ -125,7 +125,7 @@ const About = () => {
             </div>
             <div>
               <div className="text-5xl md:text-6xl font-black text-primary mb-2">$0</div>
-              <div className="text-xl text-muted-foreground">Raised In Sponsorships/div>
+              <div className="text-xl text-muted-foreground">Raised In Sponsorships</div>
             </div>
           </div>
         </div>
