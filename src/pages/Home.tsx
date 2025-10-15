@@ -1,7 +1,7 @@
 import { ArrowRight, Trophy, Users, Calendar } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/f1-hero.jpg";
-
+//line 20 can be used for another header if needed
 const Home = () => {
   return (
     <div className="min-h-screen bg-background">
@@ -17,13 +17,13 @@ const Home = () => {
         <div className="relative z-10 container mx-auto px-6">
           <div className="max-w-3xl animate-fade-in">
             <h1 className="text-6xl md:text-8xl font-black mb-6 leading-tight">
-              SPEED.
+
               <br />
               <span className="bg-gradient-racing bg-clip-text text-transparent">
-                PASSION.
+                F1 CLUB
               </span>
               <br />
-              RACING.
+              REDMOND
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl">
               Experience the thrill of racing together with fellow F1 enthusiasts.
