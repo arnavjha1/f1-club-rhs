@@ -116,16 +116,16 @@ const About = () => {
         <div className="container mx-auto px-6 relative z-10">
           <div className="grid md:grid-cols-3 gap-12 text-center">
             <div>
-              <div className="text-5xl md:text-6xl font-black text-primary mb-2">500+</div>
+              <div className="text-5xl md:text-6xl font-black text-primary mb-2">10</div>
               <div className="text-xl text-muted-foreground">Club Members</div>
             </div>
             <div>
-              <div className="text-5xl md:text-6xl font-black text-primary mb-2">50+</div>
+              <div className="text-5xl md:text-6xl font-black text-primary mb-2">0</div>
               <div className="text-xl text-muted-foreground">Events Hosted</div>
             </div>
             <div>
-              <div className="text-5xl md:text-6xl font-black text-primary mb-2">100%</div>
-              <div className="text-xl text-muted-foreground">Racing Spirit</div>
+              <div className="text-5xl md:text-6xl font-black text-primary mb-2">$0</div>
+              <div className="text-xl text-muted-foreground">Raised In Sponsorships/div>
             </div>
           </div>
         </div>
